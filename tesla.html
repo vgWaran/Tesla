@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tesla</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="tesla.css">
+    <link rel="icon" type="image/png" href="Logo/Tesla_logo.png">
+
+</head>
+<body style="font-family: 'Universal Sans', sans-serif;">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top font-dark">
+        <div class="container">
+            <div style="padding: 0px 16px; align-items: center;">
+                <img src="Logo/Tesla TItle.png" style="height: 50; width: 120px;" alt="">
+            </div>
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link text-dark" style="font-size: 14px;" href="#" id="vehiclesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vehicles</a>
+                        <div class="dropdown-menu mega-menu shadow py-3 px-3" aria-labelledby="vehiclesDropdown">
+                            <div class="row-12 d-flex">
+                                <div class="col-8 p-3 d-flex flex-wrap">
+                                    <!-- Vehicle Block -->
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Model-S Dropdown.avif" style="height: 123px; width: 220px;" alt="Model S">
+                                        <p class="fw-bold mb-1 mt-2">Model S</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Model-3 Dropdown.avif" style="height: 123px; width: 220px;" alt="Model 3">
+                                        <p class="fw-bold mb-1 mt-2">Model 3</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a> <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Model-Y Dropdown.avif" style="height: 123px; width: 220px;" alt="Model Y">
+                                        <p class="fw-bold mb-1 mt-2">Model Y</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Model-X Dropdown.avif" style="height: 123px; width: 220px;" alt="Model X">
+                                        <p class="fw-bold mb-1 mt-2">Model X</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Cybertruck-1 Dropdown.avif" style="height: 123px; width: 220px;" alt="Cybertruck">
+                                        <p class="fw-bold mb-1 mt-2">Cybertruck</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Mega-Menu-Vehicles-Inventory Dropdown.avif" style="height: 123px; width: 220px;" alt="Inventory">
+                                        <p class="fw-bold mb-1 mt-2">Inventory</p>
+                                        <a style="color: #5c5e62;" href="#">New</a>    <a style="color: #5c5e62;" href="#">Used</a>
+                                    </div>
+                                </div>
+                                <div class="col-4 d-flex align-items-center">
+                                    <!-- Vertical Divider -->
+                                    <div style="height: 80%; width: 2px; background-color: #ccc;"></div>
+                                    <!-- Spacer -->
+                                    <div class="m-5"></div>
+                                    <!-- Vertical Content -->
+                                    <ul class="list-unstyled text-start">
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Help Me Choose</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Demo Drive</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Trade-In</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Compare</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Workshops</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Help Me Charge</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Fleet</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Semi</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Roadster</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Federal Tax Credit</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">We, Robot</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link text-dark" href="#" id="vehiclesDropdown" style="font-size: 14px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">Energy</a>
+                        <div class="dropdown-menu mega-menu shadow py-3 px-3" aria-labelledby="vehiclesDropdown">
+                            <div class="row-12 d-flex">
+                                <div class="col-8 p-3 d-flex flex-wrap">
+                                    <!-- Energy Block -->
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Dropdown-Energy/Solar-Panels Dropdown.avif" style="height: 123px; width: 220px;" alt="Model S">
+                                        <p class="fw-bold mb-1 mt-2">Solar Panels</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Dropdown-Energy/Energy-Solar-Roof Dropdown.avif" style="height: 123px; width: 220px;" alt="Model 3">
+                                        <p class="fw-bold mb-1 mt-2">Solar Roof</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a> <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Dropdown-Energy/Powerwall-US Dropdown.avif" style="height: 123px; width: 220px;" alt="Model Y">
+                                        <p class="fw-bold mb-1 mt-2">Powerwall</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Dropdown-Energy/Megapack Dropdown.avif" style="height: 123px; width: 220px;" alt="Model X">
+                                        <p class="fw-bold mb-1 mt-2">Megapack</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                </div>
+                                <div class="col-4 d-flex align-items-center">
+                                    <!-- Vertical Divider -->
+                                    <div style="height: 80%; width: 2px; background-color: #ccc;"></div>
+                                    <!-- Spacer -->
+                                    <div class="m-5"></div>
+                                    <!-- Vertical Content -->
+                                    <ul class="list-unstyled text-start">
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Schedule a Consultation</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Why Solar</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Incentives</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Support</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Partner with Tesla</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Commercial</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Utilities</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link text-dark" href="#" id="vehiclesDropdown" style="font-size: 14px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">Charging</a>
+                        <div class="dropdown-menu mega-menu shadow py-3 px-3" aria-labelledby="vehiclesDropdown">
+                            <div class="row-12 d-flex">
+                                <div class="col-8 p-3 d-flex flex-wrap">
+                                    <!-- Charging Block -->
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Charging/Charging Dropdown.avif" style="height: 123px; width: 220px;" alt="Model S">
+                                        <p class="fw-bold mb-1 mt-2">Charging</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Charging/Home-Charging Dropdown.avif" style="height: 123px; width: 220px;" alt="Model 3">
+                                        <p class="fw-bold mb-1 mt-2">Home Charging</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a> <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/Charging/Supercharging Dropdown.avif" style="height: 123px; width: 220px;" alt="Model Y">
+                                        <p class="fw-bold mb-1 mt-2">Supercharging</p>
+                                        <a style="color: #5c5e62;" href="#">Learn</a>    <a style="color: #5c5e62;" href="#">Order</a>
+                                    </div>
+                                </div>
+                                <div class="col-4 d-flex align-items-center">
+                                    <!-- Vertical Divider -->
+                                    <div style="height: 80%; width: 2px; background-color: #ccc;"></div>
+                                    <!-- Spacer -->
+                                    <div class="m-5"></div>
+                                    <!-- Vertical Content -->
+                                    <ul class="list-unstyled text-start">
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Help Me Charge</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Charging Calculator</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Charging With NACS</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Supercharger Voting</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Host a Supercharger</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Commercial Charging</a></li>
+                                        <li class="my-2"><a class="p-3" style="text-decoration: none; color: black; font-size: 14px ;" href="#">Host Wall Connectors</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link text-dark" href="#" id="vehiclesDropdown" style="font-size: 14px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">Discover</a>
+                        <div class="dropdown-menu mega-menu shadow p-3" style="height: 400px;" aria-labelledby="vehiclesDropdown" style="min-width: auto;">
+                            <div class="row-12 d-flex flex-row justify-content-center gap-5 p-5">
+                                <!-- Discover Block -->
+                                <div class="d-inline-block align-top me-4">
+                                    <h6 style="color: #c5c6c7;">Resources</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a style="text-decoration: none; color: black;" href="#">Demo Drive</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Insurance</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">American Heroes</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Learn</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Video Guides</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Customer Stories</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Events</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Workshops</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Column 2 -->
+                                <div class="d-inline-block align-top me-4">
+                                    <h6 style="color: #c5c6c7;">Location Services</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a style="text-decoration: none; color: black;" href="#">Find Us</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Collision Center</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Certified Installer</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Column 3 -->
+                                <div class="d-inline-block align-top me-4">
+                                    <h6 style="color: #c5c6c7;">Company</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a style="text-decoration: none; color: black;" href="#">About</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Careers</a></li>
+                                        <li><a style="text-decoration: none; color: black;" href="#">Investors</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link text-dark" href="#" id="vehiclesDropdown" style="font-size: 14px;" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu mega-menu shadow py-3 px-3" aria-labelledby="vehiclesDropdown">
+                            <div class="row-12 d-flex flex-row justify-content-center gap-5">
+                                <div class="col-8 d-flex flex-wrap">
+                                    <!-- Shop Block -->
+                                    <div style="width: 220px"; class="me-3 p-3">
+                                        <img src="images/Dropdown Images/New folder/Shop-Charging.avif" style="height: 123px; width: 220px;" alt="Model S">
+                                        <p class="fw-bold mb-1 mt-2" style="text-align: center; margin-left: 50px;">Charging</p>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/New folder/Vehicle-Accessories.avif" style="height: 123px; width: 220px;" alt="Model 3">
+                                        <p class="fw-bold mb-1 mt-2" style="text-align: center; margin-left: 25px;">Vehicle Accessories</p>
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/New folder/Shop-Apparel.avif" style="height: 123px; width: 220px;" alt="Model Y">
+                                        <p class="fw-bold mb-1 mt-2" style="text-align: center; margin-left: 50px;">Apparel</p>
+                                        
+                                    </div>
+                                    <div style="width: 220px; text-align: center;" class="me-3 p-3">
+                                        <img src="images/Dropdown Images/New folder/Shop-Lifestyle.avif" style="height: 123px; width: 220px;" alt="Model X">
+                                        <p class="fw-bold mb-1 mt-2" style="text-align: center; margin-left: 30px;">Lifestyle</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pe-5">
+            <img src="images/Question.png" alt="Logo" height="24">
+            <img class="ps-3" src="images/language_24dp_WHITE_FILL0_wght400_GRAD0_opsz24.png" alt="Logo" height="24">
+            <img class="ps-3" src="images/profile.png" alt="Logo" height="24">
+        </div>
+    </nav>
+
+    <!-- Carousel Section-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/Model3.avif" alt="First slide">
+                <div class="carousel-caption d-flex flex-column align-items- justify-content-center text-center">
+                    <h1 class="display-3 fw-bold text-white">Model 3</h1>
+                    <p class="fs-5 text-white mb-4" style="text-decoration: underline;">0% APR Available</p>
+                    <div>
+                        <a href="#" class="btn btn-primary btn-lg me-3" style="font-size: medium;">Order Now</a>
+                        <a href="#" class="btn btn-light btn-lg me-3" style="font-size: medium;">View Inventory</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/ModelY.avif" alt="Second slide">
+                <div class="carousel-caption d-flex flex-column align-items- justify-content-center text-center">
+                    <h1 class="display-3 fw-bold text-white">Model Y</h1>
+                    <p class="fs-5 text-white mb-4" style="text-decoration: underline;">1.99% APR Ending June 16</p>
+                    <div>
+                        <a href="#" class="btn btn-primary btn-lg me-3" style="font-size: medium;">Order Now</a>
+                        <a href="#" class="btn btn-light btn-lg me-3" style="font-size: medium;">View Inventory</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev custom-prev-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next custom-next-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!-- Body Section -->
+    <!-- Large Card Selection -->
+    <div class="tesla-carousel-wrapper p-3 m-3">
+        <div class="tesla-card-container">
+            <!-- Card 1 -->
+            <div class="tesla-card" id="card1" style="height: 500px; width: 60%;">
+                <img src="images/Model S.avif" class="tesla-card-img" alt="Model S">
+                <small class="overlay-top-text p-5 position-absolute top-0 start-0 text-white p-1" style="font-weight: bold;">Luxury Sedan</small>
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Model S</h1>
+                    <p style="text-decoration: underline; font-size: 20px;"> From $84,990</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="tesla-card" id="card2" style="height: 500px; width: 60%;">
+                <img src="images/Model X.avif" class="tesla-card-img" alt="Model 3">
+                <small class="overlay-top-text p-5 position-absolute top-0 start-0 text-white p-1" style="font-weight: bold;">Luxury SUV</small>
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Model X</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">From $89,990</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="tesla-card" id="card3" style="height: 500px; width: 60%;">
+                <img src="images/Cybertruck.png" class="tesla-card-img" alt="Model 3">
+                <small class="overlay-top-text p-5 position-absolute top-0 start-0 text-white p-1" style="font-weight: bold;">Utility Truck</small>
+                <div class="tesla-card-overlay p-5">
+                    <img src="images/Cybertrucklogo Title.png" style="height: 66.38px; width: 236px;" alt="Cybertruck logo">
+                    <p style="text-decoration: underline; font-size: 20px;">0% APR With Purchase of FSD (Supervised) Ending June 30</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="tesla-card" id="card4" style="height: 500px; width: 60%;">
+                <img src="images/Model 3 2.avif" class="tesla-card-img" alt="Model 3">
+                <small class="overlay-top-text p-5 position-absolute top-0 start-0 text-white p-1" style="font-weight: bold;">Sports Sedan</small>
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Model 3</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Lease From $349/mo With Zero Down</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="tesla-card" id="card5" style="height: 500px; width: 60%;">
+                <img src="images/Model Y 2.avif" class="tesla-card-img" alt="Model Y">
+                <small class="overlay-top-text p-5 position-absolute top-0 start-0 text-white p-1" style="font-weight: bold;">Midsize SUV</small>
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Model Y</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Lease From $399/mo With $1,000 Down</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tesla-indicators text-center mt-3">
+            <a href="#card1" class="indicator-dot active"></a>
+            <a href="#card2" class="indicator-dot"></a>
+            <a href="#card3" class="indicator-dot"></a>
+            <a href="#card4" class="indicator-dot"></a>
+            <a href="#card5" class="indicator-dot"></a>
+        </div>
+    </div>
+
+    <!-- Card Section -->
+    <div class="row">
+        <div class="col-6 pt-5 pb-5 ps-5">
+            <div class="card border-0 shadow-sm" style="border-radius: 12px; overflow: hidden; background-color: #f4f4f4;">
+                <div class="d-flex align-items-center" style="height: 200px;">
+                    <div class="p-4 flex-grow-1">
+                        <h3 class="fw-bold mb-2" style="font-size: 28px;">American Heroes</h3>
+                        <p class="text-muted mb-3" style="font-size: 16px;">$1,000 off for military, first responders, teachers and students.</p>
+                        <a href="#" class="btn btn-light fw-semibold px-4 py-2" style="border-radius: 8px;">Learn More</a>
+                    </div>
+                    <div style="height: 100%; width: 250px;">
+                        <img src="images/Cardimage.avif" alt="Tesla Vehicles" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 pt-5 pb-5 pe-5">
+            <div class="card border-0 shadow-sm" style="border-radius: 12px; overflow: hidden; background-color: #f4f4f4;">
+                <div class="d-flex align-items-center" style="height: 200px;">
+                    <div class="p-4 flex-grow-1">
+                        <h3 class="fw-bold mb-2" style="font-size: 28px;">American Heroes</h3>
+                        <p class="text-muted mb-3" style="font-size: 16px;">$1,000 off for military, first responders, teachers and students.</p>
+                        <a href="#" class="btn btn-light fw-semibold px-4 py-2" style="border-radius: 8px;">Learn More</a>
+                    </div>
+                    <div style="height: 100%; width: 250px;">
+                        <img src="images/Card2.avif" alt="Tesla Vehicles" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Map -->
+    <div class="container-fluid ps-5 pe-5">
+        <div class="ratio ratio-16x9" style="border-radius: 12px; overflow: hidden; width: 100%; height: 450px;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387144.0075836836!2d-74.25986768780454!3d40.697670063019824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b67ba95c4b%3A0x864d14b3be6636d6!2sNew%20York%20City!5e0!3m2!1sen!2sin!4v1718118131781!5m2!1sen!2sin"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Find your Charge Section -->
+    <div class="row p-5">
+        <div class="col-6">
+            <h1 style="font-weight: bold; font-size: 48px;">Find Your Charge</h1>
+            <h4 style="color: #5c5e62; font-size: 20px;">View the Network of Tesla Superchargers and Destination <br> Chargers available near you.</h4>
+        </div>
+        <div class="col-3">
+            <div class="d-flex align-items-center mb-2">
+                <h1 class="fw-bold mb-0" style="font-size: 48px;">25,309</h1>
+                <img src="images/Superchargers.svg" alt="Superchargers" class="ms-2" style="height: 40px;">
+            </div>
+            <h4 style="color: #5c5e62; font-size: 20px;">Superchargers</h4>
+        </div>
+        <div class="col-3">
+            <div class="d-flex align-items-center mb-2">
+                <h1 class="fw-bold mb-0" style="font-size: 48px;">25,309</h1>
+                <img src="images/DestinationChargers.svg" alt="Destination Chargers" class="ms-2" style="height: 40px;">
+            </div>
+            <h4 style="color: #5c5e62; font-size: 20px;">Destination <br>Chargers</h4>
+        </div>
+    </div>
+
+    <!-- Bottom Carousel -->
+    <div class="tesla-carousel-wrapper p-3 m-3">
+        <div class="tesla-card-container">
+            <!-- Card 1 -->
+            <div class="tesla-card" id="Bottom1" style="height: 500px; width: 60%;">
+                <img src="images/Bottom Carousel/Panels-Desktop Slide 1.avif" class="tesla-card-img" alt="Solar Panels">
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Solar Panels</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Use Solar Energy* ower Your Home and Charge Your Tesla</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="tesla-card" id="Bottom2" style="height: 500px; width: 60%;">
+                <img src="images/Bottom Carousel/Powerwall-Desktop Slide 2.avif" class="tesla-card-img" alt="Power Wall">
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Powerwall</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Keep Your Lights On During Outages</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="tesla-card" id="Bottom3" style="height: 500px; width: 60%;">
+                <img src="images/Bottom Carousel/Roof-Desktop Slide 3.avif" class="tesla-card-img" alt="Roof">
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Solar Roof</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Generate Clean Energy With Your Foof</p>
+                    <div>
+                        <button class="btn btn-primary btn-lg">Order Now</button>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="tesla-card" id="Bottom4" style="height: 500px; width: 60%;">
+                <img src="images/Bottom Carousel/Megapack-Desktop Slide 4.avif" class="tesla-card-img" alt="Megapack">
+                <div class="tesla-card-overlay p-5">
+                    <h1 style="font-weight: bold;">Megapack</h1>
+                    <p style="text-decoration: underline; font-size: 20px;">Massive Batteries for Massive Energy Support</p>
+                    <div>
+                        <button class="btn btn-light btn-lg">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tesla-indicators text-center mt-3">
+            <a href="#Bottom1" class="indicator-dot active"></a>
+            <a href="#Bottom2" class="indicator-dot"></a>
+            <a href="#Bottom3" class="indicator-dot"></a>
+            <a href="#Bottom4" class="indicator-dot"></a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="container py-4 text-center">
+        <!-- Footnotes -->
+        <div class="container text-start text-muted pt-5 mb-4" style="font-size: 12px; max-width: 1000px;">
+            <p class="mb-2" style="font-weight: 500;">
+                <sup>1</sup> For Long–Range Rear–Wheel Drive models with 19" wheels.
+            </p>
+            <p class="mb-0 text-wrap" style="font-weight: 500;">
+                <sup>2</sup> Before the Federal Tax Credit, Model Y Long Range Rear-Wheel Drive starts at $46,630. Price includes Destination and Order Fees but 
+                exclude taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. The $7,500 Federal Tax Credit is 
+                available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible.Before the Federal 
+                Tax Credit, Model Y Long Range Rear-Wheel Drive starts at $46,630. Price includes Destination and Order Fees but exclude taxes and other fees. 
+                Subject to change. Vehicle shown has upgrades that will increase the price. The $7,500 Federal Tax Credit is available to eligible buyers and 
+                subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. 
+                <a href="#" class="text-decoration-underline text-reset text-dark" style="font-weight: 600;">Terms apply</a>.
+            </p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center gap-3 py-4 mb-5" style="font-size: 12px;">
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Tesla © 2025</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Privacy & Legal</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Vehicle Recalls</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Contact</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">News</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Get Updates</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Locations</a>
+            <a href="#" class="text-decoration-none" style="font-weight: 500; color: #5c5e62;">Learn</a>
+        </div>
+        <footer class="py-3 fixed-bottom w-100" style="background-color: #f4f4f4;">
+            <div class="container d-flex justify-content-center gap-3">
+                <div class="d-flex align-items-center border rounded px-3 py-2 shadow-sm" style="min-width: 320px;">
+                    <i class="bi bi-chat-dots-fill fs-5 text-secondary me-2"></i>
+                    <div>
+                        <span class="fw-semibold text-dark">Ask a question</span>
+                        <span class="text-muted ms-2">"What's Dog Mode?"</span>
+                    </div>
+                    <button class="btn btn-sm ms-auto" disabled style="opacity: 0.3;">
+                        <i class="bi bi-upload"></i>
+                    </button>
+                </div>
+                <div class="d-flex align-items-center border rounded px-3 py-2 shadow-sm">
+                    <i class="bi bi-steering-wheel fs-5 text-primary me-2"></i>
+                    <span class="fw-semibold text-dark">Schedule a Drive Today</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
